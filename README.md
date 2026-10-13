@@ -12,7 +12,7 @@ alt="Capstone result: detection F1 and membership-inference AUC across privacy b
 ## Quick start
 
 ```bash
-git clone https://github.com/yourname/scholars-edge-code.git
+git clone https://github.com/roiseu/scholars-edge-code.git
 cd scholars-edge-code
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
