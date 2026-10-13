@@ -1,0 +1,19 @@
+# Data you download yourself (see data/README.md); data/sample/ IS committed
+data/raw/
+data/processed/
+
+# Generated outputs (re-create with the notebooks or capstone/run_all.sh)
+results/*
+!results/.gitkeep
+paper/
+queries/
+
+# Secrets
+.env
+service-account-key.json
+
+# Python clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

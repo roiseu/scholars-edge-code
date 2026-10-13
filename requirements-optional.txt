@@ -1,0 +1,7 @@
+# Optional extras (install with: pip install -r requirements-optional.txt)
+opacus>=1.4                       # Ch 21: Opacus privacy accountant (pulls in PyTorch, ~2 GB)
+xgboost>=2.0                      # used in some book examples
+google-cloud-bigquery[pandas]>=3.11   # Ch 8, 11
+google-cloud-storage>=2.10        # Ch 11
+google-cloud-aiplatform>=1.38     # Ch 11
+google-genai>=1.0                 # Ch 11

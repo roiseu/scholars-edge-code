@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the book and this repository."
+title: "The Scholar's Edge: companion code and notebooks"
+authors:
+  - family-names: "Uddin"
+    given-names: "Roise"
+version: 1.0.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/yourname/scholars-edge-code"
+preferred-citation:
+  type: book
+  title: "The Scholar's Edge: Mastering Research, Data and AI in the Cloud Era"
+  authors:
+    - family-names: "Uddin"
+      given-names: "Roise"
+  year: 2026
