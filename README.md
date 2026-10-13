@@ -6,10 +6,13 @@ AI in the Cloud Era_** by Roise Uddin.
 Every code listing in the book is here, and every Python listing can be run on real, open
 data that ships with the repository. You can be running the first experiment in a few minutes.
 
+<p align="center"><img src="docs/images/capstone_privacy_tradeoff.png" width="720"
+alt="Capstone result: detection F1 and membership-inference AUC across privacy budgets"></p>
+
 ## Quick start
 
 ```bash
-git clone https://github.com/roiseu/scholars-edge-code.git
+git clone https://github.com/yourname/scholars-edge-code.git
 cd scholars-edge-code
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
