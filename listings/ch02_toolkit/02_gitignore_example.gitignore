@@ -1,0 +1,12 @@
+# Data (store separately and document how to obtain it)
+data/raw/
+*.csv
+*.parquet
+
+# Secrets
+.env
+service-account-key.json
+
+# Python clutter
+__pycache__/
+.ipynb_checkpoints/

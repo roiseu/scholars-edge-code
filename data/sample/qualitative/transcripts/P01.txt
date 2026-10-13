@@ -1,0 +1,4 @@
+Interviewer: Can you describe a typical night shift?
+P01: Mostly it is triage. The queue fills up from the moment I log in. I start with the high-severity alerts, but honestly most of them turn out to be scanners or a misconfigured backup job. I have a little routine: coffee, check the overnight summary, then work the queue top to bottom.
+Interviewer: How do you decide which alerts to trust?
+P01: Experience. If an alert comes from the email gateway I take it seriously, because it has been right before. The endpoint tool, less so. It fires on anything that looks unusual, and unusual is normal in a university network.

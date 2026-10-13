@@ -1,0 +1,20 @@
+% Preamble: \usepackage{algorithm} and \usepackage{algpseudocode}
+
+\begin{algorithm}[t]
+\caption{Federated averaging with differential privacy}
+\label{alg:dpfedavg}
+\begin{algorithmic}[1]
+\Require clients $K$, rounds $T$, clipping norm $C$, noise multiplier $\sigma$
+\State initialize global model $w_0$
+\For{$t = 1$ \textbf{to} $T$}
+  \For{each client $k = 1, \dots, K$ \textbf{in parallel}}
+    \State $\Delta_k \gets \Call{LocalTrain}{w_{t-1}}$
+    \State $\Delta_k \gets \Delta_k / \max\left(1, \lVert \Delta_k \rVert_2 / C\right)$
+           \Comment{clip update}
+  \EndFor
+  \State $w_t \gets w_{t-1} + \frac{1}{K}\left(\sum_k \Delta_k
+         + \mathcal{N}(0, \sigma^2 C^2 \mathbf{I})\right)$ \Comment{add noise}
+\EndFor
+\State \Return $w_T$
+\end{algorithmic}
+\end{algorithm}

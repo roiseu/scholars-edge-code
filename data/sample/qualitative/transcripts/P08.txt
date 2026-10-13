@@ -1,0 +1,4 @@
+Interviewer: Has anything improved recently?
+P08: The new correlation rules helped. Instead of five alerts for one event we get one alert with five pieces of evidence. I trust that much more, because I can see why it fired.
+Interviewer: Any remaining concerns?
+P08: Night shifts are still lonely. If I am unsure I have nobody to ask until morning, so I either sit on it or escalate everything. There is no middle ground.

@@ -1,0 +1,21 @@
+method,model,seed,accuracy,f1
+baseline,Logistic Regression,0,0.885945,0.88772
+proposed,Random Forest,0,0.989841,0.990121
+baseline,Logistic Regression,1,0.889191,0.891376
+proposed,Random Forest,1,0.988375,0.988705
+baseline,Logistic Regression,2,0.886154,0.888456
+proposed,Random Forest,2,0.987641,0.988001
+baseline,Logistic Regression,3,0.887725,0.889004
+proposed,Random Forest,3,0.989422,0.989718
+baseline,Logistic Regression,4,0.88783,0.889485
+proposed,Random Forest,4,0.989527,0.989835
+baseline,Logistic Regression,5,0.88762,0.890028
+proposed,Random Forest,5,0.989212,0.989531
+baseline,Logistic Regression,6,0.890762,0.892397
+proposed,Random Forest,6,0.989212,0.989519
+baseline,Logistic Regression,7,0.885526,0.887817
+proposed,Random Forest,7,0.989527,0.989827
+baseline,Logistic Regression,8,0.881965,0.883345
+proposed,Random Forest,8,0.989422,0.989689
+baseline,Logistic Regression,9,0.894114,0.895612
+proposed,Random Forest,9,0.988375,0.988686

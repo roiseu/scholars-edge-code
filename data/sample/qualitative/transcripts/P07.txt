@@ -1,0 +1,4 @@
+Interviewer: How would you describe the main dashboard to a new colleague?
+P07: Honestly? The dashboard is basically a slot machine. It flashes, it makes noise, and every so often it pays out a real incident. You keep pulling the lever because you might miss the one that matters.
+Interviewer: Does that affect how you feel at the end of a shift?
+P07: Completely drained. It is not the hard incidents that tire you, it is the hundreds of meaningless ones in between.

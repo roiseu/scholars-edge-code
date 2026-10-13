@@ -1,0 +1,4 @@
+Interviewer: Tell me about the dashboard you use.
+P06: It is colourful and it is always red somewhere. New staff panic. After a month you learn to ignore the colours and look at the raw logs instead.
+Interviewer: Why the raw logs?
+P06: Because I can see what actually happened. The dashboard summarises, and the summary hides the one line that matters. I trust the logs, I do not really trust the scoring.

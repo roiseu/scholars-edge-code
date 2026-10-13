@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{graphicx, booktabs, amsmath, subcaption}
+\usepackage[acronym]{glossaries}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\makeglossaries
+\input{frontmatter/acronyms}   % \newacronym{fl}{FL}{federated learning} ...
+
+% Compile only selected chapters while drafting (comment out for the full build)
+% \includeonly{chapters/ch4-results1}
+
+\begin{document}
+\include{frontmatter/titlepage}
+\pagenumbering{roman}
+\include{frontmatter/declaration}
+\include{frontmatter/abstract}
+\include{frontmatter/acknowledgments}
+\tableofcontents
+\listoffigures
+\listoftables
+\printglossary[type=\acronymtype, title=List of Abbreviations]
+
+\clearpage
+\pagenumbering{arabic}
+\include{chapters/ch1-introduction}
+\include{chapters/ch2-literature}
+\include{chapters/ch3-methodology}
+\include{chapters/ch4-results1}
+\include{chapters/ch5-results2}
+\include{chapters/ch6-results3}
+\include{chapters/ch7-discussion}
+\include{chapters/ch8-conclusion}
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\appendix
+\include{appendices/appA-additional-results}
+\end{document}

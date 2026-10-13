@@ -1,0 +1,14 @@
+my-research-project/
+|-- README.md            what the project is and how to run it
+|-- data/
+|   |-- raw/             original data -- never edit these files
+|   +-- processed/       cleaned data produced by code
+|-- notebooks/           exploration and quick experiments
+|-- src/                 reusable, tested code
+|-- results/
+|   |-- figures/
+|   +-- tables/
+|-- paper/               LaTeX source of the manuscript
+|-- docs/                notes, research log, meeting summaries
+|-- requirements.txt     exact package versions
++-- ai_usage_log.jsonl   record of AI assistance (Chapter 13)

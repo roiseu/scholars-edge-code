@@ -1,0 +1,4 @@
+Interviewer: What would make your job easier?
+P05: Fewer alerts that matter more. I would happily take a hundred good alerts instead of a thousand mixed ones. When the volume is high you get tired, and when you are tired you click close faster.
+Interviewer: Do you escalate often?
+P05: Less than I should. Escalating means writing a proper justification, and if it turns out to be nothing you feel you wasted the senior analyst's time. So you only escalate when you are very sure.

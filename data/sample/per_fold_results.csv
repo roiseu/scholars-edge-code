@@ -1,0 +1,21 @@
+method,fold,f1
+Logistic Regression,1,0.889301
+Decision Tree,1,0.981961
+Random Forest,1,0.987689
+Gradient Boosting,1,0.988919
+Logistic Regression,2,0.883697
+Decision Tree,2,0.982159
+Random Forest,2,0.991026
+Gradient Boosting,2,0.990129
+Logistic Regression,3,0.891713
+Decision Tree,3,0.981339
+Random Forest,3,0.988286
+Gradient Boosting,3,0.988099
+Logistic Regression,4,0.886965
+Decision Tree,4,0.98355
+Random Forest,4,0.989407
+Gradient Boosting,4,0.988698
+Logistic Regression,5,0.890126
+Decision Tree,5,0.982858
+Random Forest,5,0.990628
+Gradient Boosting,5,0.989517

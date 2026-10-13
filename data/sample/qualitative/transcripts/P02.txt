@@ -1,0 +1,4 @@
+Interviewer: What makes an alert feel credible to you?
+P02: Context. If the alert tells me which user, which host, and what changed, I can act on it. If it just says anomalous behaviour, I have to rebuild the story myself, and at four in the morning that is exhausting.
+Interviewer: Do you have ways of coping with that?
+P02: I keep a personal notebook of known noisy rules. Before I open a ticket I check the notebook. It is not official, but it saves me an hour a night. My lead knows about it and has started copying it.

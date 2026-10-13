@@ -1,0 +1,4 @@
+Interviewer: How do you work with the rest of the team during a shift?
+P04: We have a ritual at handover. The outgoing analyst reads out the three things that worried them most. It sounds old-fashioned but it is the most useful ten minutes of the day.
+Interviewer: And the tools?
+P04: The tools are fine when they are tuned. The problem is nobody owns the tuning. Everyone complains about noisy rules, nobody has time to fix them, so we work around them.

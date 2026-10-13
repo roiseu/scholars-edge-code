@@ -1,0 +1,48 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{metropolis}
+\usepackage{graphicx, booktabs}
+
+\title{Measuring the Privacy--Utility Trade-off in Federated Intrusion Detection}
+\author{Your Name}
+\institute{Your University}
+\date{IEEE Conference, 2026}
+
+\begin{document}
+\maketitle
+
+\begin{frame}{Sharing traffic data improves detection but creates privacy risk}
+  \centering
+  \includegraphics[width=0.75\textwidth]{figures/problem_diagram.pdf}
+\end{frame}
+
+\begin{frame}{Privacy costs less than one F1 point at $\varepsilon = 1$}
+  \centering
+  \includegraphics[width=0.8\textwidth]{figures/fig_results.pdf}
+  \vfill
+  {\small Mean over five seeds; error bars show standard deviation.}
+\end{frame}
+
+\begin{frame}{Below $\varepsilon = 0.5$, detection degrades sharply}
+  \begin{columns}[T]
+    \column{0.58\textwidth}
+      \includegraphics[width=\linewidth]{figures/fig_tradeoff.pdf}
+    \column{0.38\textwidth}
+      \begin{itemize}
+        \item<1-> F1 falls from 0.97 to 0.91
+        \item<2-> Rare attack types suffer most
+      \end{itemize}
+  \end{columns}
+\end{frame}
+
+\appendix
+\begin{frame}{Backup: hyperparameters and hardware}
+  \centering
+  \begin{tabular}{ll}
+    \toprule
+    Clients & 10 \\
+    Rounds & 50 \\
+    Clipping norm & 1.0 \\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+\end{document}

@@ -1,0 +1,3 @@
+("federated learning" OR "collaborative learning" OR "decentralized learning")
+AND ("intrusion detection" OR IDS OR "anomaly detection" OR "attack detection")
+AND (IoT OR "Internet of Things" OR "edge devices")

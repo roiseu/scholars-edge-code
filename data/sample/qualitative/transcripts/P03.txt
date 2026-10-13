@@ -1,0 +1,4 @@
+Interviewer: Was there a moment when your view of the system changed?
+P03: Yes, quite clearly. We had a week where a new detection rule kept firing on the printers. After the third false alarm in one night I stopped believing it. Then a real incident came through the same rule two days later and I almost closed it without looking.
+Interviewer: How did that feel?
+P03: Embarrassing, and a bit scary. Now I force myself to open every alert at least once, even the ones I think are junk. It slows me down, but I trust myself more than the tool.

@@ -1,0 +1,13 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install exact dependencies first (cached between builds)
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the project code
+COPY . .
+
+# Running the container regenerates all results
+CMD ["bash", "run_all.sh"]

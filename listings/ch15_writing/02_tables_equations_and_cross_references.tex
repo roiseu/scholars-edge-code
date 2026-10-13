@@ -1,0 +1,25 @@
+% Preamble: \usepackage{booktabs, amsmath} and \usepackage{cleveref} (load last)
+
+\begin{table}[t]
+  \centering
+  \caption{Detection performance (mean $\pm$ SD over five seeds).}
+  \label{tab:results}
+  \begin{tabular}{lccc}
+    \toprule
+    Method & Accuracy & F1 & AUC \\
+    \midrule
+    Random Forest & $0.975 \pm 0.002$ & $\mathbf{0.974}$ & $\mathbf{0.991}$ \\
+    FedIDS ($\varepsilon = 1.0$) & $0.968 \pm 0.004$ & $0.967$ & $0.989$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The F1-score is the harmonic mean of precision $P$ and recall $R$:
+\begin{equation}
+  F_1 = \frac{2PR}{P + R},
+  \label{eq:f1}
+\end{equation}
+where $P = TP/(TP+FP)$ and $R = TP/(TP+FN)$.
+
+As \cref{tab:results} shows, the gap is small; \cref{eq:f1} defines the metric
+and \cref{fig:results} visualizes the trade-off.
